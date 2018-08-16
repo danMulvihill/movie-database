@@ -22,6 +22,9 @@ $('input').keyup(function() {
     })
   })
 
+
+ 
+
   $.ajax({
     type: 'GET',
     url: 'http://www.omdbapi.com/?apikey=4896ff0a',
